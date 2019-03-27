@@ -1,1 +1,23 @@
 1. Promotion ~ add tour
+
+Preview activity diagram:
+	- Register: 
+		+ Select form register?
+		+ flow in check account is embigous,not understand.
+		+ if user want "cancel"?
+	- Login :
+		+ Select form login ?
+		+ flow in check login is embigous,not understand.
+		+ if user want "cancel"?
+	- Change Password :
+		+ flow in check Account is embigous,not understand.
+		+ should have "input new repassword" !
+		+ flow in Notification success is embigous,not understand.
+	- Fogot password : ...
+	- View tour : ...
+	- View tour guide : ...
+	- Search Tour : ...
+	- Payment : ...
+	- Not have Book tour !
+	- Not have feedback !
+ 

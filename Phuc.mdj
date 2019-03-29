@@ -895,7 +895,7 @@
 											"top": 159,
 											"width": 128.5654296875,
 											"height": 13,
-											"text": "select button login"
+											"text": "select login"
 										},
 										{
 											"_type": "LabelView",
@@ -2065,7 +2065,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFptZUrspvxnuw="
 							},
-							"name": "select button login"
+							"name": "select login"
 						},
 						{
 							"_type": "UMLAction",
@@ -2753,7 +2753,7 @@
 											"top": 191,
 											"width": 133.63720703125,
 											"height": 13,
-											"text": "Select button register"
+											"text": "Select register"
 										},
 										{
 											"_type": "LabelView",
@@ -5133,7 +5133,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFptcNOwJ8dxp0="
 							},
-							"name": "Select button register"
+							"name": "Select register"
 						}
 					]
 				},

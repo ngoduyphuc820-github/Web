@@ -44,21 +44,25 @@
 		    <version>8.5.39</version>
 		</dependency>
 
+  	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-core</artifactId>
+		    <version>5.4.2.Final</version>
+		</dependency>
 		
-<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
 		<dependency>
 		    <groupId>com.microsoft.sqlserver</groupId>
 		    <artifactId>mssql-jdbc</artifactId>
 		    <version>7.2.1.jre8</version>
 		    <scope>test</scope>
 		</dependency>
-
-
 		
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
 		<dependency>
 		    <groupId>org.springframework</groupId>
-		    <artifactId>spring-jdbc</artifactId>
+		    <artifactId>spring-orm</artifactId>
 		    <version>5.1.5.RELEASE</version>
 		</dependency>
 		

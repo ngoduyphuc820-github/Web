@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-5.3.dtd">  
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driverClassName">com.microsoft.sqlserver.jdbc.SQLServerJdbc</property>
+        <property name="connection.url">jdbc:sqlserver://localhost:1433;databaseName=CDWebVer2</property>
+        <property name="connection.username">sa</property>
+        <property name="connection.password">thach</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
+    <mapping class="model.Account" />
+    </session-factory>
+</hibernate-configuration>

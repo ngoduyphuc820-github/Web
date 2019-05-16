@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.3.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.3.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-4.3.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.3.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+
+
+	<!-- Tạo một dataSource cơ bản với csdl là SQL -->
+	<bean id="dataTubudd"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource" destroy-method="clone">
+		<property name="driverClassName"
+			 value="net.sourceforge.jtds.jdbc.Driver" />
+		<property name="url"
+			value="jdbc:jtds:sqlserver://localhost:1433;databaseName=CDWebVer4;" />
+		<property name="username" value="sa" />
+		<property name="password" value="thach" />
+	</bean>
+
+	<!-- Là trung gian để đọc các tên định danh (@Entity=ACCOUNT...) của class 
+		và mapping đến dataSource -->
+	<bean id="mySessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataTubudd" />
+		<property name="packagesToScan" value="ndp.Entity.*" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServer2012Dialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!-- Thực hiện các câu truy vấn và mapping tới mySessionFactory, mySessionFactory 
+		sẽ kết nối tới dataSource lấy dữ liệu trả về để gửi lên Dispatcher -->
+	<bean id="myTransactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<tx:annotation-driven
+		transaction-manager="myTransactionManager" />
+
+
+ <bean id="accountDAO" class="ndp.Dao.AccountDAOImpl">
+     <property name="sessionFactory" ref="mySessionFactory" />
+ </bean>
+  <bean id="profileDAO" class="ndp.Dao.ProfileDAOImpl">
+     <property name="sessionFactory" ref="mySessionFactory" />
+ </bean>
+   <bean id="placeDAO" class="ndp.Dao.PlaceDAOImpl">
+     <property name="sessionFactory" ref="mySessionFactory" />
+ </bean>
+   <bean id="tourDAO" class="ndp.Dao.TourDAOImpl">
+     <property name="sessionFactory" ref="mySessionFactory" />
+ </bean>
+</beans>

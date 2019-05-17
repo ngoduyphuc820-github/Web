@@ -24,6 +24,9 @@
 	<!-- Mapping đến Controller để tìm các class xử lý khi người dùng nhập request -->
 	<context:component-scan base-package="ndp.Controller"></context:component-scan>
 
+	<!-- Mapping đến Controller để tìm các class xử lý khi người dùng nhập request -->
+	<context:component-scan base-package="nnt.Controller"></context:component-scan>
+	
 	<!-- Mapping đến container để lấy cơ sở dữ liệu -->
 	<import resource="classpath:IoC.xml" />
 

@@ -15,15 +15,15 @@
 
 
 <link rel="stylesheet"
-	href="../resources/vendors/bootstrap/dist/css/bootstrap.min.css">
+	href="../resources/ndp/vendors/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet"
-	href="../resources/vendors/font-awesome/css/font-awesome.min.css">
+	href="../resources/ndp/vendors/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet"
-	href="../resources/vendors/themify-icons/css/themify-icons.css">
+	href="../resources/ndp/vendors/themify-icons/css/themify-icons.css">
 <link rel="stylesheet"
-	href="../resources/vendors/flag-icon-css/css/flag-icon.min.css">
+	href="../resources/ndp/vendors/flag-icon-css/css/flag-icon.min.css">
 <link rel="stylesheet"
-	href="../resources/vendors/selectFX/css/cs-skin-elastic.css">
+	href="../resources/ndp/vendors/selectFX/css/cs-skin-elastic.css">
 
 <link rel="stylesheet" href="../resources/assets/css/style.css">
 
@@ -90,10 +90,11 @@
 	</div>
 
 
-	<script src="../resources/vendors/jquery/dist/jquery.min.js"></script>
-	<script src="../resources/vendors/popper.js/dist/umd/popper.min.js"></script>
-	<script src="../resources/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="../resources/assets/js/main.js"></script>
+	<script src="../resources/ndp/vendors/jquery/dist/jquery.min.js"></script>
+	<script src="../resources/ndp/vendors/popper.js/dist/umd/popper.min.js"></script>
+	<script
+		src="../resources/ndp/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="../resources/ndp/assets/js/main.js"></script>
 
 
 

@@ -12,8 +12,8 @@
 				<div class="wrap_header trans-0-3">
 					<!-- Logo -->
 					<div class="logo">
-						<a href="index.html"> <img src="../resources/images/icons/logo.png"
-							alt="IMG-LOGO" data-logofixed="../resources/images/icons/logo2.png">
+						<a href="index.html"> <img src="${pageContext.request.contextPath}/resources/images/icons/logo.png"
+							alt="IMG-LOGO" data-logofixed="${pageContext.request.contextPath}/resources/images/icons/logo2.png">
 						</a>
 					</div>
 
@@ -33,7 +33,7 @@
 
 								<li><a href="contact">Contact</a></li>
 								
-								<li><a href="#"><img alt="avatar" src="../resources/images/avatar/4.jpg" style="border-radius: 20px; width: 40px "></a></li>
+								<li><a href="#"><img alt="avatar" src="${pageContext.request.contextPath}/resources/images/avatar/4.jpg" style="border-radius: 20px; width: 40px "></a></li>
 							</ul>
 						</nav>
 					</div>

@@ -15,39 +15,39 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
 	rel="stylesheet">
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/vendor/bootstrap/css/bootstrap.min.css" />
+	href="${pageContext.request.contextPath}/resources/vendor/bootstrap/css/bootstrap.min.css" />
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+	href="${pageContext.request.contextPath}/resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/fonts/themify/themify-icons.css" />
+	href="${pageContext.request.contextPath}/resources/fonts/themify/themify-icons.css" />
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/vendor/animate/animate.css">
+	href="${pageContext.request.contextPath}/resources/vendor/animate/animate.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/vendor/css-hamburgers/hamburgers.min.css">
+	href="${pageContext.request.contextPath}/resources/vendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/vendor/animsition/css/animsition.min.css">
+	href="${pageContext.request.contextPath}/resources/vendor/animsition/css/animsition.min.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/vendor/select2/select2.min.css">
+	href="${pageContext.request.contextPath}/resources/vendor/select2/select2.min.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/vendor/daterangepicker/daterangepicker.css">
+	href="${pageContext.request.contextPath}/resources/vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/vendor/slick/slick.css">
+	href="${pageContext.request.contextPath}/resources/vendor/slick/slick.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/vendor/lightbox2/css/lightbox.min.css">
+	href="${pageContext.request.contextPath}/resources/vendor/lightbox2/css/lightbox.min.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/css/util.css">
+	href="${pageContext.request.contextPath}/resources/css/util.css">
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/css/main.css">
+	href="${pageContext.request.contextPath}/resources/css/main.css">
 <!--===============================================================================================-->
 </head>
 <body class="animsition">
@@ -93,7 +93,7 @@
 								<div class="pic-blo4 hov-img-zoom bo-rad-10 pos-relative">
 									<video width="100%" height="auto"  controls>
 										<source 
-											src="${pageContext.request.contextPath}/images/videos/video1.mp4"
+											src="${pageContext.request.contextPath}/resources/images/videos/video1.mp4"
 											type="video/mp4">
 									</video>
 									<div class="date-blo4 flex-col-c-m">
@@ -467,41 +467,41 @@
 
 
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/vendor/jquery/jquery-3.2.1.min.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/jquery/jquery-3.2.1.min.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/vendor/animsition/js/animsition.min.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/animsition/js/animsition.min.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/vendor/bootstrap/js/popper.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/bootstrap/js/popper.js"></script>
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/vendor/bootstrap/js/bootstrap.min.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/bootstrap/js/bootstrap.min.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/vendor/select2/select2.min.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/select2/select2.min.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/vendor/daterangepicker/moment.min.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/daterangepicker/moment.min.js"></script>
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/vendor/daterangepicker/daterangepicker.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/daterangepicker/daterangepicker.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/vendor/slick/slick.min.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/slick/slick.min.js"></script>
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/js/slick-custom.js"></script>
+		src="${pageContext.request.contextPath}/resources/js/slick-custom.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/vendor/parallax100/parallax100.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/parallax100/parallax100.js"></script>
 	<script type="text/javascript">
 		$('.parallax100').parallax100();
 	</script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/vendor/countdowntime/countdowntime.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/countdowntime/countdowntime.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="${pageContext.request.contextPath}/vendor/lightbox2/js/lightbox.min.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/lightbox2/js/lightbox.min.js"></script>
 	<!--===============================================================================================-->
-	<script src="${pageContext.request.contextPath}/js/main.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/js/main.js"></script>
 </body>
 </html>

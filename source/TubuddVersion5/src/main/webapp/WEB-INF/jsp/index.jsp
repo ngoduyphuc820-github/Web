@@ -8,38 +8,38 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
-<link rel="icon" type="images/png" href="../resources/images/icons/favicon.png" />
+<link rel="icon" type="images/png" href="${pageContext.request.contextPath}/resources/images/icons/favicon.png" />
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="../resources/vendor/bootstrap/css/bootstrap.min.css">
+	href="${pageContext.request.contextPath}/resources/vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="../resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	href="${pageContext.request.contextPath}/resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="../resources/fonts/themify/themify-icons.css">
+	href="${pageContext.request.contextPath}/resources/fonts/themify/themify-icons.css">
 <!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="../resources/vendor/animate/animate.css">
-<!--===============================================================================================-->
-<link rel="stylesheet" type="text/css"
-	href="../resources/vendor/css-hamburgers/hamburgers.min.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/vendor/animate/animate.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="../resources/vendor/animsition/css/animsition.min.css">
+	href="${pageContext.request.contextPath}/resources/vendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="../resources/vendor/select2/select2.min.css">
+	href="${pageContext.request.contextPath}/resources/vendor/animsition/css/animsition.min.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="../resources/vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="../resources/vendor/slick/slick.css">
+	href="${pageContext.request.contextPath}/resources/vendor/select2/select2.min.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="../resources/vendor/lightbox2/css/lightbox.min.css">
+	href="${pageContext.request.contextPath}/resources/vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="../resources/css/util.css">
-<link rel="stylesheet" type="text/css" href="../resources/css/main.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/vendor/slick/slick.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+	href="${pageContext.request.contextPath}/resources/vendor/lightbox2/css/lightbox.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/util.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/main.css">
 <!--===============================================================================================-->
 </head>
 <body class="animsition">
@@ -55,7 +55,7 @@
 		<div class="wrap-slick1">
 			<div class="slick1">
 				<div class="item-slick1 item1-slick1"
-					style="background-image: url(../resources/images/slides-01.jpg);">
+					style="background-image: url(${pageContext.request.contextPath}/resources/images/slides-01.jpg);">
 					<div
 						class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span
@@ -76,7 +76,7 @@
 				</div>
 
 				<div class="item-slick1 item2-slick1"
-					style="background-image: url(../resources/images/slides-02.jpg);">
+					style="background-image: url(${pageContext.request.contextPath}/resources/images/slides-02.jpg);">
 					<div
 						class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span
@@ -97,7 +97,7 @@
 				</div>
 
 				<div class="item-slick1 item3-slick1"
-					style="background-image: url(../resources/images/slides-03.jpg);">
+					style="background-image: url(${pageContext.request.contextPath}/resources/images/slides-03.jpg);">
 					<div
 						class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span
@@ -148,7 +148,7 @@
 				<div class="col-md-6 p-b-30">
 					<div
 						class="wrap-pic-welcome size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="../resources/images/our-story-01.jpg" alt="IMG-OUR">
+						<img src="${pageContext.request.contextPath}/resources/images/our-story-01.jpg" alt="IMG-OUR">
 					</div>
 				</div>
 			</div>
@@ -158,7 +158,7 @@
 	<!-- Intro -->
 	<section class="section-intro">
 		<div class="header-intro parallax100 t-center p-t-135 p-b-158"
-			style="background-image: url(../resources/images/bg-intro-01.jpg);">
+			style="background-image: url(${pageContext.request.contextPath}/resources/images/bg-intro-01.jpg);">
 			<span class="tit2 p-l-15 p-r-15"> Discover </span>
 
 			<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">Gonatour</h3>
@@ -171,7 +171,7 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="../resources/images/intro-01.jpg" width="296"
+								<a href="#"><img src="${pageContext.request.contextPath}/resources/images/intro-01.jpg" width="296"
 									height="292" alt="IMG-INTRO"></a>
 							</div>
 
@@ -193,7 +193,7 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="../resources/images/intro-02.jpg" width="296"
+								<a href="#"><img src="${pageContext.request.contextPath}/resources/images/intro-02.jpg" width="296"
 									height="292" alt="IMG-INTRO"></a>
 							</div>
 
@@ -215,7 +215,7 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="../resources/images/intro-03.jpg" width="296"
+								<a href="#"><img src="${pageContext.request.contextPath}/resources/images/intro-03.jpg" width="296"
 									height="292" alt="IMG-INTRO"></a>
 							</div>
 
@@ -352,7 +352,7 @@
 				<div class="col-lg-6 p-b-30 p-t-18">
 					<div
 						class="wrap-pic-booking size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="../resources/images/booking-01.jpg" alt="IMG-OUR" width="500" height="400">
+						<img src="${pageContext.request.contextPath}/resources/images/booking-01.jpg" alt="IMG-OUR" width="500" height="400">
 					</div>
 				</div>
 			</div>
@@ -393,37 +393,37 @@
 
 
 	<!--===============================================================================================-->
-	<script type="text/javascript" src="../resources/vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/vendor/jquery/jquery-3.2.1.min.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="../resources/vendor/animsition/js/animsition.min.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/animsition/js/animsition.min.js"></script>
 	<!--===============================================================================================-->
-	<script type="text/javascript" src="../resources/vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/vendor/bootstrap/js/popper.js"></script>
 	<script type="text/javascript"
-		src="../resources/vendor/bootstrap/js/bootstrap.min.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/bootstrap/js/bootstrap.min.js"></script>
 	<!--===============================================================================================-->
-	<script type="text/javascript" src="../resources/vendor/select2/select2.min.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/vendor/select2/select2.min.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="../resources/vendor/daterangepicker/moment.min.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/daterangepicker/moment.min.js"></script>
 	<script type="text/javascript"
-		src="../resources/vendor/daterangepicker/daterangepicker.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/daterangepicker/daterangepicker.js"></script>
 	<!--===============================================================================================-->
-	<script type="text/javascript" src="../resources/vendor/slick/slick.min.js"></script>
-	<script type="text/javascript" src="../resources/js/slick-custom.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/vendor/slick/slick.min.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/slick-custom.js"></script>
 	<!--===============================================================================================-->
-	<script type="text/javascript" src="../resources/vendor/parallax100/parallax100.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/vendor/parallax100/parallax100.js"></script>
 	<script type="text/javascript">
 		$('.parallax100').parallax100();
 	</script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="../resources/vendor/countdowntime/countdowntime.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/countdowntime/countdowntime.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript"
-		src="../resources/vendor/lightbox2/js/lightbox.min.js"></script>
+		src="${pageContext.request.contextPath}/resources/vendor/lightbox2/js/lightbox.min.js"></script>
 	<!--===============================================================================================-->
-	<script src="../resources/js/main.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/js/main.js"></script>
 
 </body>
 </html>

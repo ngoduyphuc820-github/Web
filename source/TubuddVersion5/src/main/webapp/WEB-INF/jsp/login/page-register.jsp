@@ -15,17 +15,17 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/vendors/bootstrap/dist/css/bootstrap.min.css" />
+	href="${pageContext.request.contextPath}/resources/vendors/bootstrap/dist/css/bootstrap.min.css" />
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/vendors/font-awesome/css/font-awesome.min.css" />
+	href="${pageContext.request.contextPath}/resources/vendors/font-awesome/css/font-awesome.min.css" />
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/vendors/themify-icons/css/themify-icons.css" />
+	href="${pageContext.request.contextPath}/resources/vendors/themify-icons/css/themify-icons.css" />
 
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/vendors/selectFX/css/cs-skin-elastic.css" />
+	href="${pageContext.request.contextPath}/resources/vendors/selectFX/css/cs-skin-elastic.css" />
 
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/assets/css/style.css" />
+	href="${pageContext.request.contextPath}/resources/assets/css/style.css" />
 
 <script type="text/javascript">
 	$(function(){
@@ -97,10 +97,10 @@
 		color :red;
 	}
 </style>
-	<script src="${pageContext.request.contextPath}/vendors/jquery/dist/jquery.min.js"></script>
-	<script src="${pageContext.request.contextPath}/vendors/popper.js/dist/umd/popper.min.js" ></script>
-	<script src="${pageContext.request.contextPath}/vendors/bootstrap/dist/js/bootstrap.min.js" ></script>
-	<script src="${pageContext.request.contextPath}/assets/js/main.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/vendors/jquery/dist/jquery.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/vendors/popper.js/dist/umd/popper.min.js" ></script>
+	<script src="${pageContext.request.contextPath}/resources/vendors/bootstrap/dist/js/bootstrap.min.js" ></script>
+	<script src="${pageContext.request.contextPath}/resources/assets/js/main.js"></script>
 	
 
 
